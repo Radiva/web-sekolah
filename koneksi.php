@@ -1,4 +1,5 @@
 <?php
+// Deklarasi variabel untuk tersambung ke database
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -10,8 +11,6 @@ $koneksi = mysqli_connect($host, $user, $pass, $db);
 // Cek koneksi
 if(!$koneksi){
     die("Koneksi gagal: ". mysqli_connect_error());
-} else {
-    echo "OK";
 }
 
 ?>

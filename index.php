@@ -26,7 +26,7 @@ $result = mysqli_query($koneksi, $query);
                 <a href="kelas.php" class="btn btn-primary">Kelola Kelas</a>
                 <a href="wali_murid.php" class="btn btn-primary">Kelola Wali Murid</a>
             </div>
-            <a href="tambah_siswa.php" class="btn btn-succes">Tambah Siswa</a>
+            <a href="tambah_siswa.php" class="btn btn-success">Tambah Siswa</a>
 
         </div>
         <table class= "table table-bordered">
